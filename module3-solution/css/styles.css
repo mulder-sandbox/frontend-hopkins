@@ -1,0 +1,32 @@
+body {
+    background: #2B823A;
+}
+
+h1, .navbar-default .navbar-brand {
+    color: #00410B;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #82C38D;
+}
+
+.navbar {
+    background-color: #51A35F;
+    border-color: #82C38D;
+}
+
+body > .container-fluid, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle .icon-bar  {
+    color: #00410B;
+    background: #82C38D;
+}
+
+body > .container-fluid {
+    border-radius: 5px;
+    margin: 20px;
+    min-height: 1000px;
+    padding: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #00410B;
+}
